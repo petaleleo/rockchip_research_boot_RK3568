@@ -14,6 +14,7 @@ links:
 
 # Boot flow 
 from here: https://opensource.rock-chips.com/wiki_Boot_option
+
 This chapter introduce the generic boot flow for Rockchip Application Processors, including the detail about what image we may use in Rockchip platform for kind of boot path:
 
 - use U-Boot TPL/SPL from upsream or rockchip U-Boot, fully source code;
