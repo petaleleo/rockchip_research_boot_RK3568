@@ -1,7 +1,7 @@
 # rockchip_research_boot_RK3568
 Research booting Radxa Rock 3A (RK3568)
 
-![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/radxa3a_2.webp?raw=true)
+![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/radxa3a_2.webp?raw=true)
 
 
 links:
@@ -55,7 +55,7 @@ Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BA
 - Boot from U-Disk means firmware for stage 4 and 5(not including SPL and U-Boot) in Disk, optionally only including stage 5;
 - Boot from net/tftp means firmeware for stage 4 and 5(not including SPL and U-Boot) on the network;
 
-![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/894px-Rockchip_bootflow20181122.jpg?raw=true)
+![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/894px-Rockchip_bootflow20181122.jpg?raw=true)
 
 # Others
 
