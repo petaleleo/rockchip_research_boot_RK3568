@@ -9,6 +9,7 @@ links:
 1. https://docs.radxa.com/en/rock3/rock3a
 2. https://wiki.radxa.com/Rock3/3a
 3. https://docs.u-boot.org/en/latest/board/rockchip/rockchip.html#rockchip-boards
+4. 
 
 #Others
 
@@ -25,4 +26,8 @@ sleep 1
 rkdeveloptool wl 0x4000 u-boot.img
 sleep 1
 rkdeveloptool rd
+
+
+./tools/mkimage -n rk3308 -T rksd -d Firefly_Linux_SDK/rk3308_linux_release_v1.5.0a_20221212/u-boot/tpl/u-boot-tpl-dtb.bin idbloader.img
+cat Firefly_Linux_SDK/rk3308_linux_release_v1.5.0a_20221212/u-boot/spl/u-boot-spl-dtb.bin >> idbloader.img
 ```
