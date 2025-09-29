@@ -12,6 +12,7 @@ links:
 4. https://electronix.ru/forum/topic/181090-zapusk-chipov-rockchip-bez-proprietarnyh-blobov/
 5. https://opensource.rock-chips.com/wiki_Boot_option
 6. https://wiki.t-firefly.com/en/ROC-RK3568-PC/index.html
+7. https://wiki.radxa.com/Rock3/hardware/3a
 
 # Boot flow 
 from here: https://opensource.rock-chips.com/wiki_Boot_option
@@ -58,6 +59,15 @@ Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BA
 ![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/894px-Rockchip_bootflow20181122.jpg?raw=true)
 
 # SPI Flash
+
+https://wiki.radxa.com/Rock3/hardware/3a
+
+for enry MASKROM Short-circuit the FSPI_CLK pin and GND pin to make SPI Nor flash unavailable.
+
+when you see
+![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/spi_flash_err.jpg?raw=true)
+
+you need to remove Short-circuit the FSPI_CLK pin and GND pin to make SPI Nor flash available in MASROM mode.
 
 
 
