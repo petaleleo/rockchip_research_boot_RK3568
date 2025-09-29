@@ -58,8 +58,9 @@ Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BA
 
 ![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/894px-Rockchip_bootflow20181122.jpg?raw=true)
 
-- Boot Flow 1 is typical Rockchip boot flow with Rockchip miniloader;
-- Boot Flow 2 is used for most SoCs with U-Boot TPL for ddr init and SPL for trust(ATF/OP-TEE) load and run into next stage;
+Boot Flow 1 is typical Rockchip boot flow with Rockchip miniloader;
+
+Boot Flow 2 is used for most SoCs with U-Boot TPL for ddr init and SPL for trust(ATF/OP-TEE) load and run into next stage;
 
 - Note 1. If loader1 have more than 1 stage, program will back to bootrom and bootrom load and run into next stage. eg. If loader1 is tpl and spl, the bootrom will run into tpl first, tpl init ddr and back to bootrom, bootrom then load and run into spl.
 - Note 2. If trust is enabled, loader1 need to load both trust and u-boot, and then run into trust in secure mode(EL3 in armv8), trust do the initialize and run into U-Boot in non-secure mode(EL2 in armv8).
