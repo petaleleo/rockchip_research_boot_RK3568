@@ -45,12 +45,12 @@ This chapter introduce the generic boot flow for Rockchip Application Processors
 
 Then when we talking about boot from eMMC/SD/U-Disk/net, they are in different concept:
 
-Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BACK_TO_BROM option enabled).
-Boot from SPI flash means firmware for stage 2 and 3(SPL and U-Boot only) in SPI flash and stage 4/5 in other place;
-Boot from eMMC means all the firmware(including stage 2, 3, 4, 5) in eMMC;
-Boot from SD card means all the firmware(including stage 2, 3, 4, 5) in SD card;
-Boot from U-Disk means firmware for stage 4 and 5(not including SPL and U-Boot) in Disk, optionally only including stage 5;
-Boot from net/tftp means firmeware for stage 4 and 5(not including SPL and U-Boot) on the network;
+- Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BACK_TO_BROM option enabled).
+- Boot from SPI flash means firmware for stage 2 and 3(SPL and U-Boot only) in SPI flash and stage 4/5 in other place;
+- Boot from eMMC means all the firmware(including stage 2, 3, 4, 5) in eMMC;
+- Boot from SD card means all the firmware(including stage 2, 3, 4, 5) in SD card;
+- Boot from U-Disk means firmware for stage 4 and 5(not including SPL and U-Boot) in Disk, optionally only including stage 5;
+- Boot from net/tftp means firmeware for stage 4 and 5(not including SPL and U-Boot) on the network;
 
 ![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/894px-Rockchip_bootflow20181122.jpg?raw=true)
 
