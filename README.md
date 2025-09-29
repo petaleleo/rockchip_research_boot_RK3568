@@ -1,4 +1,4 @@
-# rockchip_research_boot_RK3568
+# Rockchip research boot RK3568
 Research booting Radxa Rock 3A (RK3568)
 
 ![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/radxa3a_2.webp?raw=true)
