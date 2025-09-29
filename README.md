@@ -18,6 +18,7 @@ This chapter introduce the generic boot flow for Rockchip Application Processors
 - use U-Boot TPL/SPL from upsream or rockchip U-Boot, fully source code;
 - use Rockchp idbLoader which is combinded by Rockchip ddr init bin and miniloader bin from Rockchip rkbin project;
 
+```
 +--------+----------------+----------+-------------+---------+
 | Boot   | Terminology #1 | Actual   | Rockchip    | Image   |
 | stage  |                | program  |  Image      | Location|
@@ -40,6 +41,8 @@ This chapter introduce the generic boot flow for Rockchip Application Processors
 |        |                |          |             |         |
 | 5      |  -             | rootfs   | rootfs.img  | 0x40000 |
 +--------+----------------+----------+-------------+---------+
+```
+
 Then when we talking about boot from eMMC/SD/U-Disk/net, they are in different concept:
 
 Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BACK_TO_BROM option enabled).
