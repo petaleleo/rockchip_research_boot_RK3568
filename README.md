@@ -11,6 +11,7 @@ links:
 3. https://docs.u-boot.org/en/latest/board/rockchip/rockchip.html#rockchip-boards
 4. https://electronix.ru/forum/topic/181090-zapusk-chipov-rockchip-bez-proprietarnyh-blobov/
 5. https://opensource.rock-chips.com/wiki_Boot_option
+6. https://wiki.t-firefly.com/en/ROC-RK3568-PC/index.html
 
 # Boot flow 
 from here: https://opensource.rock-chips.com/wiki_Boot_option
