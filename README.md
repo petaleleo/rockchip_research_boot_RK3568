@@ -49,7 +49,7 @@ Boot from SD card means all the firmware(including stage 2, 3, 4, 5) in SD card;
 Boot from U-Disk means firmware for stage 4 and 5(not including SPL and U-Boot) in Disk, optionally only including stage 5;
 Boot from net/tftp means firmeware for stage 4 and 5(not including SPL and U-Boot) on the network;
 
-![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/radxa3a_2.webp?raw=true)
+![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/894px-Rockchip_bootflow20181122.jpg?raw=true)
 
 # Others
 
