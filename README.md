@@ -12,7 +12,7 @@ links:
 
 #Others
 
-```
+```BASH
 !/bin/sh
 
 ./tools/mkimage -n rk3308 -T rksd -d bin/rk33/rk3308_ddr_589MHz_uart4_m0_v2.07.bin idbloader.img # Блоб
