@@ -57,6 +57,10 @@ Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BA
 
 ![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/894px-Rockchip_bootflow20181122.jpg?raw=true)
 
+# SPI Flash
+
+
+
 # Others
 
 ```BASH
