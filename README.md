@@ -62,7 +62,9 @@ Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BA
 
 https://wiki.radxa.com/Rock3/hardware/3a
 
-for enry MASKROM Short-circuit the FSPI_CLK pin and GND pin to make SPI Nor flash unavailable.
+for entry MASKROM: 
+- short-circuit the FSPI_CLK pin and GND pin to make SPI Nor flash unavailable.
+- remove SD card (or short-circuit MASKROMM pin)
 
 when you see size SPI Flash = 0 as on screenshot:
 ![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/spi_flash_err.jpg?raw=true)
