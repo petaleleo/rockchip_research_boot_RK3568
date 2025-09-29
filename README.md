@@ -9,9 +9,10 @@ links:
 1. https://docs.radxa.com/en/rock3/rock3a
 2. https://wiki.radxa.com/Rock3/3a
 3. https://docs.u-boot.org/en/latest/board/rockchip/rockchip.html#rockchip-boards
-4. 
+4. https://electronix.ru/forum/topic/181090-zapusk-chipov-rockchip-bez-proprietarnyh-blobov/
+5. https://opensource.rock-chips.com/wiki_Boot_option
 
-#Others
+# Others
 
 ```BASH
 !/bin/sh
