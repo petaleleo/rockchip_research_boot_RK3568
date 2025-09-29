@@ -64,7 +64,7 @@ https://wiki.radxa.com/Rock3/hardware/3a
 
 for enry MASKROM Short-circuit the FSPI_CLK pin and GND pin to make SPI Nor flash unavailable.
 
-when you see
+when you see size SPI Flash = 0 as on screenshot:
 ![alt text](https://github.com/petaleleo/rockchip_research_boot_RK3568/blob/main/pic/spi_flash_err.jpg?raw=true)
 
 you need to remove Short-circuit the FSPI_CLK pin and GND pin to make SPI Nor flash available in MASROM mode.
