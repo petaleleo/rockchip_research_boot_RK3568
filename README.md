@@ -45,7 +45,7 @@ This chapter introduce the generic boot flow for Rockchip Application Processors
 
 Then when we talking about boot from eMMC/SD/U-Disk/net, they are in different concept:
 
-- Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BACK_TO_BROM option enabled).
+Stage 1 is always in boot rom, it loads stage 2 and may load stage 3(when SPL_BACK_TO_BROM option enabled).
 - Boot from SPI flash means firmware for stage 2 and 3(SPL and U-Boot only) in SPI flash and stage 4/5 in other place;
 - Boot from eMMC means all the firmware(including stage 2, 3, 4, 5) in eMMC;
 - Boot from SD card means all the firmware(including stage 2, 3, 4, 5) in SD card;
