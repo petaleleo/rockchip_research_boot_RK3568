@@ -13,6 +13,7 @@ links:
 5. https://opensource.rock-chips.com/wiki_Boot_option
 6. https://wiki.t-firefly.com/en/ROC-RK3568-PC/index.html
 7. https://wiki.radxa.com/Rock3/hardware/3a
+8. https://blog.3mdeb.com/2025/2025-04-22-odroid-m1-secure-boot/
 
 # Boot flow 
 from here: https://opensource.rock-chips.com/wiki_Boot_option
